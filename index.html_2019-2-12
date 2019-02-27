@@ -1,0 +1,683 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/normalize.css"/>
+    <link rel="stylesheet" href="css/index.css"/>
+    <link rel="stylesheet" href="css/imageflow.css"/>
+    <script src="lib/jquery/jquery.min.js"></script>
+    <script src="lib/jquery/imageflow.js"></script>
+    <script src="js/shipei1.js"></script>
+    <script type="text/javascript" charset="utf-8" src="http://lead.soperson.com/20000785/10093110.js"></script>
+</head>
+<body>
+<div class="tip01">有位财富大师想跟您聊一聊
+    <div onclick="doyoo.util.openChat('g=10056002');return false;">
+
+    </div>
+</div>
+<div class="box">
+<div class="banner">
+    <div class="login-div">
+
+    </div>
+    <div class="login-box">
+        <div class="title">百万课程、商机在手</div>
+        <div class="dis">每日前100名免费获赠《金融的秘密》</div>
+        <div class="input-box"><input id="user-name" type="text" placeholder="姓名："/></div>
+        <div class="input-box"><input id="user-phone" type="text" placeholder="联系方式："/></div>
+        <div class="submit-box">一键领取</div>
+        <div class="hasDis">已经有超过 <span>1000万</span>用户领取</div>
+        <div class="model-tips hide" id="#model-tips"></div>
+    </div>
+
+</div>
+<!--<div class="login-hide-box hide">-->
+    <!--<div class="title">登录</div>-->
+    <!--<div class="line"></div>-->
+    <!--<div class="input-box "><input id="user-name" type="text" placeholder="姓名："/></div>-->
+    <!--<div class="input-box "><input id="user-phone" type="text" placeholder="联系方式："/></div>-->
+    <!--<div class="toSubmit">点击登录</div>-->
+    <!--<span class="close">╳</span>-->
+<!--</div>-->
+<div class="content1">
+    <div class="eight-title"></div>
+    <div class="eight-info">
+        <ul>
+            <li>1.都知道金融、区块链赚钱，但不知从何学起</li>
+            <li>2.无背景无资源，入门举步维艰</li>
+            <li>3.报班N多，学习却毫无所获</li>
+            <li>4.工作忙时间少，学习总是两地跑</li>
+            <li>5.学习问题无处咨询，实践操作无人指导</li>
+            <li>6.大师理论头头是道，谈实操只言片语</li>
+            <li>7.网络发达骗局多，提心吊胆难避祸</li>
+            <li>8.国家政策难把握，好商机不断错过...</li>
+        </ul>
+    </div>
+    <div class="eight-foot">财富挖掘机让你真正实现0基础学习，解决金融、区块链学习痛点，成就您的金融大师梦</div>
+</div>
+<div class="content2">
+    <div class="more-left">
+        <div class="shebei01"></div>
+    </div>
+    <div class="more-btn">了解更多</div>
+    <div class="more-right">
+        <div class="more-right-title">财富 <span>挖掘机</span></div>
+        <div class="more-right-info">
+            财富挖掘机是由普华商学院翟山鹰院长带领30位业内顶尖高手，斥资2亿专项资金，耗时3年间打造的金融、区块链实操学习助手。内含金融、区块链专业课程体系，价值超百万，80%以上由翟山鹰老师主讲。内容从基础理论到落地实操、案例分析全面覆盖金融、区块链、商业、中国文化领域课程。
+        </div>
+    </div>
+
+
+</div>
+<div class="content3">
+    <div class="course-left">
+        <div class="title">
+            从小白到精英 只需 <span>1个月</span>
+        </div>
+        <div class="course-info">
+            <ul>
+                <li>
+                    <div class="course-info-box">
+                        <div class="info-title">课程体系</div>
+                        <div class="cut-line"></div>
+                        <p>内含2000+金融、区块链、商业、中国文化等专业、系统的课程</p>
+
+                        <div class="info-btn">了解详情</div>
+                    </div>
+                    <div class="big-course-info firstLi ">
+                        <div class="info-title">课程体系</div>
+                        <div class="cut-line"></div>
+                        <p>内含2000+金融、区块链、商业、中国文化等专业、系统的课程</p>
+
+                        <div class="info-btn">了解详情</div>
+                    </div>
+                </li>
+                <li>
+                    <div class="course-info-box">
+                        <div class="info-title">精英社区</div>
+                        <div class="cut-line"></div>
+                        <p> 超万名商业精英、企业主、金融从业者，互动讨论当下金融热点，机友资源24小时无休互动</p>
+
+                        <div class="info-btn">了解详情</div>
+                    </div>
+                    <div class="big-course-info secondLi hide">
+                        <div class="info-title">精英社区</div>
+                        <div class="cut-line"></div>
+                        <p> 超万名商业精英、企业主、金融从业者，互动讨论当下金融热点，机友资源24小时无休互动</p>
+
+                        <div class="info-btn">了解详情</div>
+                    </div>
+                </li>
+                <li>
+                    <div class="course-info-box">
+                        <div class="info-title">财富帮手</div>
+                        <div class="cut-line"></div>
+                        <p>你是否为找不到专业金融资料而烦恼？不用担心，财富挖掘机中的文档查询、文库下载、金融资料全线覆盖，让您的金融之路更为便捷</p>
+
+                        <div class="info-btn">了解详情</div>
+                    </div>
+                    <div class="big-course-info thirdLi hide">
+                        <div class="info-title">财富帮手</div>
+                        <div class="cut-line"></div>
+                        <p>你是否为找不到专业金融资料而烦恼？不用担心，财富挖掘机中的文档查询、文库下载、金融资料全线覆盖，让您的金融之路更为便捷</p>
+
+                        <div class="info-btn">了解详情</div>
+                    </div>
+                </li>
+                <li>
+                    <div class="course-info-box">
+                        <div class="info-title">答题冲顶</div>
+                        <div class="cut-line"></div>
+                        <p>上千套金融、区块链、商业、中国文化等课程测试题，练就真正财富高手</p>
+
+                        <div class="info-btn">了解详情</div>
+                    </div>
+                    <div class="big-course-info fourthLi hide">
+                        <div class="info-title">答题冲顶</div>
+                        <div class="cut-line"></div>
+                        <p>上千套金融、区块链、商业、中国文化等课程测试题，练就真正财富高手</p>
+
+                        <div class="info-btn">了解详情</div>
+                    </div>
+                </li>
+                <li>
+                    <div class="course-info-box">
+                        <div class="info-title">最前线</div>
+                        <div class="cut-line"></div>
+                        <p>最新的资讯，让您跑在金融最前线。由普华商学院执行院长“叮咚”，以精彩的图文、视频，讲述她对金融、区块链的深入见解</p>
+
+                        <div class="info-btn">了解详情</div>
+                    </div>
+                    <div class="big-course-info fifthLi hide">
+                        <div class="info-title">最前线</div>
+                        <div class="cut-line"></div>
+                        <p>最新的资讯，让您跑在金融最前线。由普华商学院执行院长“叮咚”，以精彩的图文、视频，讲述她对金融、区块链的深入见解</p>
+
+                        <div class="info-btn">了解详情</div>
+                    </div>
+                </li>
+                <li>
+                    <div class="course-info-box ">
+                        <div class="info-title">O2O教学</div>
+                        <div class="cut-line"></div>
+                        <p>线上每月定期更新课程；线下金融名师翟山鹰教授亲自指导实操。在这里您可以和志同道合的伙伴共同进步</p>
+
+                        <div class="info-btn">了解详情</div>
+                    </div>
+                    <div class="big-course-info sixthLi hide">
+                        <div class="info-title">O2O教学</div>
+                        <div class="cut-line"></div>
+                        <p>线上每月定期更新课程；线下金融名师翟山鹰教授亲自指导实操。在这里您可以和志同道合的伙伴共同进步</p>
+
+                        <div class="info-btn">了解详情</div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="course-right">
+        <div class="course-tab">
+            <ul>
+                <li class="selected"><span></span>课程体系</li>
+                <li><span></span>精英社区</li>
+                <li><span></span>财富帮手</li>
+                <li><span></span>答题冲顶</li>
+                <li><span></span>最前线</li>
+                <li><span></span>O 2 O 教学</li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="content4 someSame">
+    <div class="lunbo-title">
+        <h3>财富挖掘机专业课程体系<span>全</span>解析</h3>
+        <h6>课程内容从基础理论到落地实操、案例分析全面覆盖金融、商业领域</h6>
+    </div>
+    <div class="lunbo-tab">
+        <ul>
+            <li class="selected">前沿课程</li>
+            <li class="">系统学习</li>
+            <li class="">投资理财</li>
+            <li class="">金融杂谈</li>
+            <li class="">实战操盘</li>
+            <li class="">中国文化</li>
+            <li class="">资格认证</li>
+        </ul>
+    </div>
+    <div class="lunbo-box">
+        <!--效果html开始-->
+        <div id="loopDiv" style="width: 100%;margin-top: -250px;margin-bottom: -136px">
+            <input id="S_Num" type="hidden" value="3"/>
+
+            <div id="starsIF" class="imageflow" style="width: 100%">
+
+                <img src="images/18.png" longdesc="4" alt="4"/>
+                <img src="images/13.png" longdesc="5" alt="5"/>
+                <img src="images/14.png" longdesc="6" alt="6"/>
+                <img src="images/15.png" longdesc="0" alt="0"/>
+                <img src="images/16.png" longdesc="1" alt="1"/>
+                <img src="images/17.png" longdesc="2" alt="2"/>
+                <img src="images/11.png" longdesc="3" alt="3"/>
+                <img src="images/18.png" longdesc="4" alt="4"/>
+                <img src="images/13.png" longdesc="5" alt="5"/>
+                <img src="images/14.png" longdesc="6" alt="6"/>
+                <img src="images/15.png" longdesc="0" alt="0"/>
+                <img src="images/16.png" longdesc="1" alt="1"/>
+                <img src="images/17.png" longdesc="2" alt="2"/>
+                <img src="images/11.png" longdesc="3" alt="3"/>
+            </div>
+            <div class="main-box ">
+                <div class="title"><div class="left"></div>前沿课程 <div class="right"></div></div>
+                <p>提供全球公认的最重要商业领域“区块链”，教您了解中国政府的区块链战略思想，明晰使用区块链打造商业暴富体系的奥秘。</p>
+            </div>
+            <div class="main-box-r1">
+                <div class="title"><div class="left"></div>系统学习 <div class="right"></div></div>
+                <p>由翟山鹰教授主讲，课程从疑难分析、BSC生态星球模式、证券市场规则到并购重组等12类热门课程，为您解读中国特色金融体系专业课程。最全的财富知识，给你不一样的金融体验。</p>
+            </div>
+            <div class="main-box-r2">
+                <div class="title"><div class="left"></div>投资理财 <div class="right"></div></div>
+                <p>投资有风险，融资需谨慎，平稳妥当的投融资规划，助您逐步实现“聚财”的目标。听翟神开讲，获融资智慧。</p>
+            </div>
+            <div class="main-box-l1">
+                <div class="title"><div class="left"></div>资格认证 <div class="right"></div></div>
+                <p>金融考证类课程，最新大纲解读、真题解析、海外市场发展、一次通过考试的最佳备考方案。</p>
+            </div>
+            <div class="main-box-l2">
+                <div class="title"><div class="left"></div>中国文化 <div class="right"></div></div>
+                <p>结合中国五行相生相克、阴阳平衡的理论，秉承“以人为本、天人合一”的理念，用最通俗易懂的语言，将中国文化与金融思维巧妙联系。重新解读中国传统文化。</p>
+            </div>
+        </div>
+        <!--效果html结束-->
+        <div class="clear"></div>
+        <div class="learn-now">
+            <div class="now-btn">开始学习</div>
+            <span>热线电话：400-0302-888</span>
+        </div>
+    </div>
+</div>
+<div class="content5 someSame">
+    <h3>财富帮手—— <span>海量</span>、实用文库免费下载</h3>
+
+    <div class="xiazai">
+        <div class="xiazai-left">
+            <p>你是否为找不到专业金融资料而烦恼？不用担心，财富挖掘机中的文档查询、文库下载、金融资料全线覆盖，让您的金融之路更为便捷。</p>
+            <img src="images/shebei02.png" alt=""/>
+        </div>
+
+        <div class="xiazai-right">
+            <div class="title">热门文库下载</div>
+            <ul>
+                <li>
+                    <span>金融居间协议</span>
+                    <a href="javascript:;">立即下载</a>
+                </li>
+                <li>
+                    <span>金融居间协议</span>
+                    <a href="javascript:;">立即下载</a>
+                </li>
+                <li>
+                    <span>金融居间协议</span>
+                    <a href="javascript:;">立即下载</a>
+                </li>
+                <li>
+                    <span>金融居间协议</span>
+                    <a href="javascript:;">立即下载</a>
+                </li>
+                <li>
+                    <span>金融居间协议</span>
+                    <a href="javascript:;">立即下载</a>
+                </li>
+                <li>
+                    <span>金融居间协议</span>
+                    <a href="javascript:;">立即下载</a>
+                </li>
+                <li>
+                    <span>金融居间协议</span>
+                    <a href="javascript:;">立即下载</a>
+                </li>
+                <li>
+                    <span>金融居间协议</span>
+                    <a href="javascript:;">立即下载</a>
+                </li>
+                <li>
+                    <span>金融居间协议</span>
+                    <a href="javascript:;">立即下载</a>
+                </li>
+                <li>
+                    <span>金融居间协议</span>
+                    <a href="javascript:;">立即下载</a>
+                </li>
+                <li>
+                    <span>金融居间协议</span>
+                    <a href="javascript:;">立即下载</a>
+                </li>
+                <li>
+                    <span>金融居间协议</span>
+                    <a href="javascript:;">立即下载</a>
+                </li>
+                <li>
+                    <span>金融居间协议</span>
+                    <a href="javascript:;">立即下载</a>
+                </li>
+                <li>
+                    <span>金融居间协议</span>
+                    <a href="javascript:;">立即下载</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+</div>
+<div class="content6 someSame">
+    <h3>财富挖掘机 <span>X4</span>震撼上市</h3>
+    <h6>财富挖掘机，您最值得信赖的金融助手</h6>
+
+    <div class="zixun-box">
+        <ul>
+            <li class="firstLi">
+                <div class="li-bg">
+                    <img src="images/zixun01.png" alt=""/>
+
+                    <div class="title">专业</div>
+                    <p>财富挖掘机专业课程体系内容从基础理论到落地实操经验课程、案例分析全覆盖金融、区块链、商业、中国文化领域，海量课程任你选择，学你所需。</p>
+
+                    <div class="xiangqing-btn">了解详情</div>
+                </div>
+            </li>
+            <li class="secondLi">
+                <div class="li-bg">
+                    <img src="images/zixun02.png" alt=""/>
+
+                    <div class="title">便携</div>
+                    <p>财富挖掘机以平板电脑为载体，方便携带，“一机在手”零基础、随时随地碎片化学习。</p>
+
+                    <div class="xiangqing-btn">了解详情</div>
+                </div>
+            </li>
+            <li class="thirdLi">
+                <div class="li-bg">
+                    <img src="images/zixun03.png" alt=""/>
+
+                    <div class="title">实操</div>
+                    <p>财富挖掘机所包含的课程，都不是“纸上谈兵”，不做考证教学，只做提高身价的技能培训，所学都可以落地，快速提高实战技能。</p>
+
+                    <div class="xiangqing-btn">了解详情</div>
+                </div>
+            </li>
+            <li class="fourthLi">
+                <div class="li-bg">
+                    <img src="images/zixun04.png" alt=""/>
+
+                    <div class="title">防骗</div>
+                    <p>财富挖掘机金融互动论坛板块，行业精英24小时在线解答疑问，规避骗局。用户可建立自己的“金融圈”，资源互动。</p>
+
+                    <div class="xiangqing-btn">了解详情</div>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="learn-now">
+        <div class="now-btn">资讯详情</div>
+        <span>热线电话：400-0302-888</span>
+    </div>
+</div>
+<div class="content7">
+    <div class="img-box clearfix">
+        <div class="img-left fl">
+            <div class="left-top clearfix" >
+                <ul  class="fl1">
+                    <li><img src="images/content701.png"  alt=""/></li>
+                    <li><img src="images/content702.png"  alt=""/></li>
+                    <li><img src="images/content705.png" alt=""/></li>
+                </ul>
+                <ul  class="fl2">
+                    <li><img src="images/content704.png" alt=""/></li>
+                    <li><img src="images/content708.png" alt=""/></li>
+                    <li><img src="images/content706.png" alt=""/></li>
+                </ul>
+                <ul class="fl3">
+                    <li><img src="images/content709.png" alt=""/></li>
+                    <li><img src="images/content710.png" alt=""/></li>
+                    <li><img src="images/content710.png" alt=""/></li>
+                    <li><img src="images/content711.png" alt=""/></li>
+                    <li><img src="images/content710.png" alt=""/></li>
+                </ul>
+            </div>
+            <div class="left-bottom clearfix">
+                <ul class="fl" style="width: 586px">
+                    <li  class=""><img src="images/713.png"  alt=""/></li>
+                </ul>
+
+                <ul class="fl" style="width: 530px">
+                    <li style="display: inline-block" ><img src="images/712.png"  alt=""/></li>
+                </ul>
+            </div>
+
+
+        </div>
+        <div class="img-right fl">
+            <ul>
+                <li><img src="images/714.png" alt=""/></li>
+                <li><img src="images/715.png" alt=""/></li>
+                <li><img src="images/716.png" alt=""/></li>
+                <li><img src="images/717.png" alt=""/></li>
+            </ul>
+        </div>
+    </div>
+<div class="sayGood">从入门到实操，用过的人都说好</div>
+    <div class="more-btn">了解更多</div>
+</div>
+<div class="content8">
+    <div class="model-box">
+    <div class="foot-info clearfix">
+        <div class="foot-left fl">
+            <div class="title">
+                <h2>财富挖掘机</h2>
+                <p>为你打开财富大门</p>
+                <p>探寻未知的金融宝藏</p>
+            </div>
+            <div class="address">
+                <p>公司地址：北京市朝阳区高井文化园8号东艺传媒产业园元君书苑F1栋</p>
+                <p>联系我们：400-0302-888</p>
+            </div>
+        </div>
+        <div class="line fl"></div>
+        <div class="foot-right fl">
+            <p>关注公号 领取福利</p>
+            <img src="images/erweima.png" alt=""/>
+            <br/>
+            <span>· 扫一扫了解详情</span>
+        </div>
+    </div>
+    <div class="copy">Copyright @2014-2015 普华众鑫文化传播有限公司版权所有 网站备案/许可证号 京ICP备14039415号-2 </div>
+    </div>
+</div>
+</div>
+<!--<div class="model-tips hide" id="#model-tips"></div>-->
+
+<script>
+
+    $(function () {
+//弹出登录框
+//        $(".banner").on("click", function () {
+//        $(".login-hide-box ").show()
+//        })
+        $(".submit-box").on("click", function () {
+//            if(!$("#user-name").val()){
+//                tips("姓名不能为空",1000)
+//            }else
+         if(!$("#user-phone").val()) {
+                tips("联系方式不能为空",1000);
+
+            }else if(!testPhone($("#user-phone").val())){
+                tips("手机号格式不正确",1000)
+            } else{
+//                $(".close").click();
+                tips("恭喜，领取成功",3000, function () {
+                    $(".login-box").find("input").val("");
+                })
+
+            }
+
+        })
+
+        $(".course-info li").on("mouseenter", function () {
+            var index=$(this).index();
+            $($(".course-tab li")[index]).click();
+//            $(".big-course-info").hide()
+//            $(this).parent().parent().find(".big-course-info").show(50);
+        })
+        $(".course-tab li").on ("click", function () {
+            $(this).addClass("selected").siblings().removeClass("selected");
+            var index=$(this).index();
+            $(".course-info li").find(".big-course-info").hide();
+            $($(".course-info li")[index]).find(".big-course-info").show();
+
+        })
+
+        $(".lun-tab li").on("click", function () {
+            var index=$(this).index()
+            $("#starsIF img[longdesc="+index+"]")[0].click();
+//            if($("#starsIF img[longdesc==index]")){
+
+//            }
+        })
+        $("body").on("click", "#starsIF img", function () {
+            $(this).hide()
+            var srcUrl = $(this).attr("src");
+            var mainT=$("#loopDiv .main-box .title"),
+                    mainP=$("#loopDiv .main-box p"),
+                    mainR1T=$("#loopDiv .main-box-r1 .title"),
+                    mainR1p=$("#loopDiv .main-box-r1 p"),
+                    mainR2T=$("#loopDiv .main-box-r2 .title"),
+                    mainR2p=$("#loopDiv .main-box-r2 p"),
+                    mainL1T= $("#loopDiv .main-box-l1 .title"),
+                    mainL1P=$("#loopDiv .main-box-l1 p"),
+                    mainL2T=$("#loopDiv .main-box-l2 .title"),
+                    mainL2P=$("#loopDiv .main-box-l2 p");
+            srcUrl = srcUrl.replace("1", "2")
+            var index=$(this).attr("longdesc")
+            $("#loopDiv .main-box").css("background", "url(" + srcUrl + ")")
+            $($(".lunbo-tab li")[index]).addClass("selected").siblings().removeClass("selected")
+            switch (index){
+                case "0": mainT.text("前沿课程");
+                    mainP.text("提供全球公认的最重要商业领域“区块链”，教您了解中国政府的区块链战略思想，明晰使用区块链打造商业暴富体系的奥秘。")
+                    mainR1T.text("系统学习");
+                    mainR1p.text("由翟山鹰教授主讲，课程从疑难分析、BSC生态星球模式、证券市场规则到并购重组等12类热门课程，为您解读中国特色金融体系专业课程。最全的财富知识，给你不一样的金融体验。")
+                    mainR2T.text("投资理财");
+                    mainR2p.text("投资有风险，融资需谨慎，平稳妥当的投融资规划，助您逐步实现“聚财”的目标。听翟神开讲，获融资智慧。")
+                    mainL1T.text("资格认证");
+                    mainL1P.text("金融考证类课程，最新大纲解读、真题解析、海外市场发展、一次通过考试的最佳备考方案。")
+                    mainL2T.text("中国文化");
+                    mainL2P.text("结合中国五行相生相克、阴阳平衡的理论，秉承“以人为本、天人合一”的理念，用最通俗易懂的语言，将中国文化与金融思维巧妙联系。重新解读中国传统文化。")
+                    break;
+                case "1": mainT.text("系统学习");
+                    mainP.text("由翟山鹰教授主讲，课程从疑难分析、BSC生态星球模式、证券市场规则到并购重组等12类热门课程，为您解读中国特色金融体系专业课程。最全的财富知识，给你不一样的金融体验。")
+                    mainR1T.text("投资理财");
+                    mainR1p.text("投资有风险，融资需谨慎，平稳妥当的投融资规划，助您逐步实现“聚财”的目标。听翟神开讲，获融资智慧。")
+                    mainR2T.text("金融杂谈");
+                    mainR2p.text("分析圈里圈外的最新政策、经济环境，揭秘资本运营技巧，让你学会用不同的眼光和胸怀寻找本质规律，探寻时事热点背后的玄机")
+                    mainL1T.text("前沿课程");
+                    mainL1P.text("由翟山鹰教授主讲，课程从疑难分析、BSC生态星球模式、证券市场规则到并购重组等12类热门课程，为您解读中国特色金融体系专业课程。最全的财富知识，给你不一样的金融体验。")
+                    mainL2T.text("资格认证");
+                    mainL2P.text("金融考证类课程，最新大纲解读、真题解析、海外市场发展、一次通过考试的最佳备考方案。")
+                    break;
+                case "2": mainT.text("投资理财");
+                    mainP.text("投资有风险，融资需谨慎，平稳妥当的投融资规划，助您逐步实现“聚财”的目标。听翟神开讲，获融资智慧。")
+                    mainR1T.text("金融杂谈");
+                    mainR1p.text("分析圈里圈外的最新政策、经济环境，揭秘资本运营技巧，让你学会用不同的眼光和胸怀寻找本质规律，探寻时事热点背后的玄机")
+                    mainR2T.text("实战操盘");
+                    mainR2p.text("企业发展运营问题、商业运作问题、创业问题、案例分析，实战操盘课堂为你解读各种实际难题，企业保命致胜更胜一筹，")
+                    mainL1T.text("系统学习");
+                    mainL1P.text("由翟山鹰教授主讲，课程从疑难分析、BSC生态星球模式、证券市场规则到并购重组等12类热门课程，为您解读中国特色金融体系专业课程。最全的财富知识，给你不一样的金融体验。")
+                    mainL2T.text("前沿课程");
+                    mainL2P.text("提供全球公认的最重要商业领域“区块链”，教您了解中国政府的区块链战略思想，明晰使用区块链打造商业暴富体系的奥秘。")
+                    break;
+                case "3": mainT.text("金融杂谈");
+                    mainP.text("分析圈里圈外的最新政策、经济环境，揭秘资本运营技巧，让你学会用不同的眼光和胸怀寻找本质规律，探寻时事热点背后的玄机")
+                    mainR1T.text("实战操盘");
+                    mainR1p.text("企业发展运营问题、商业运作问题、创业问题、案例分析，实战操盘课堂为你解读各种实际难题，企业保命致胜更胜一筹，")
+                    mainR2T.text("中国文化");
+                    mainR2p.text("结合中国五行相生相克、阴阳平衡的理论，秉承“以人为本、天人合一”的理念，用最通俗易懂的语言，将中国文化与金融思维巧妙联系。重新解读中国传统文化。")
+                    mainL1T.text("投资理财");
+                    mainL1P.text("投资有风险，融资需谨慎，平稳妥当的投融资规划，助您逐步实现“聚财”的目标。听翟神开讲，获融资智慧。")
+                    mainL2T.text("系统学习");
+                    mainL2P.text("由翟山鹰教授主讲，课程从疑难分析、BSC生态星球模式、证券市场规则到并购重组等12类热门课程，为您解读中国特色金融体系专业课程。最全的财富知识，给你不一样的金融体验。")
+
+                    break;
+                case "4": mainT.text("实战操盘");
+                    mainP.text("企业发展运营问题、商业运作问题、创业问题、案例分析，实战操盘课堂为你解读各种实际难题，企业保命致胜更胜一筹，")
+                    mainR1T.text("中国文化");
+                    mainR1p.text("结合中国五行相生相克、阴阳平衡的理论，秉承“以人为本、天人合一”的理念，用最通俗易懂的语言，将中国文化与金融思维巧妙联系。重新解读中国传统文化。")
+                    mainR2T.text("资格认证");
+                    mainR2p.text("金融考证类课程，最新大纲解读、真题解析、海外市场发展、一次通过考试的最佳备考方案。")
+                    mainL1T.text("金融杂谈");
+                    mainL1P.text("分析圈里圈外的最新政策、经济环境，揭秘资本运营技巧，让你学会用不同的眼光和胸怀寻找本质规律，探寻时事热点背后的玄机")
+                    mainL2T.text("投资理财");
+                    mainL2P.text("投资有风险，融资需谨慎，平稳妥当的投融资规划，助您逐步实现“聚财”的目标。听翟神开讲，获融资智慧。")
+
+                    break;
+                case "5": mainT.text("中国文化");
+                    mainP.text("结合中国五行相生相克、阴阳平衡的理论，秉承“以人为本、天人合一”的理念，用最通俗易懂的语言，将中国文化与金融思维巧妙联系。重新解读中国传统文化。")
+                    mainR1T.text("资格认证");
+                    mainR1p.text("金融考证类课程，最新大纲解读、真题解析、海外市场发展、一次通过考试的最佳备考方案。")
+                    mainR2T.text("前沿课程");
+                    mainR2p.text("由翟山鹰教授主讲，课程从疑难分析、BSC生态星球模式、证券市场规则到并购重组等12类热门课程，为您解读中国特色金融体系专业课程。最全的财富知识，给你不一样的金融体验。")
+                    mainL1T.text("实战操盘");
+                    mainL1P.text("企业发展运营问题、商业运作问题、创业问题、案例分析，实战操盘课堂为你解读各种实际难题，企业保命致胜更胜一筹，")
+                    mainL2T.text("金融杂谈");
+                    mainL2P.text("分析圈里圈外的最新政策、经济环境，揭秘资本运营技巧，让你学会用不同的眼光和胸怀寻找本质规律，探寻时事热点背后的玄机")
+
+                    break;
+                case "6": mainT.text("资格认证");
+                    mainP.text("金融考证类课程，最新大纲解读、真题解析、海外市场发展、一次通过考试的最佳备考方案。")
+                    mainR1T.text("前沿课程");
+                    mainR1p.text("由翟山鹰教授主讲，课程从疑难分析、BSC生态星球模式、证券市场规则到并购重组等12类热门课程，为您解读中国特色金融体系专业课程。最全的财富知识，给你不一样的金融体验。")
+                    mainR2T.text("系统学习");
+                    mainR2p.text("由翟山鹰教授主讲，课程从疑难分析、BSC生态星球模式、证券市场规则到并购重组等12类热门课程，为您解读中国特色金融体系专业课程。最全的财富知识，给你不一样的金融体验。")
+                    mainL1T.text("中国文化");
+                    mainL1P.text("结合中国五行相生相克、阴阳平衡的理论，秉承“以人为本、天人合一”的理念，用最通俗易懂的语言，将中国文化与金融思维巧妙联系。重新解读中国传统文化。")
+                    mainL2T.text("实战操盘");
+                    mainL2P.text("企业发展运营问题、商业运作问题、创业问题、案例分析，实战操盘课堂为你解读各种实际难题，企业保命致胜更胜一筹，")
+
+                    break;
+
+            }
+        })
+
+        $(".lunbo-tab li").on("click", function () {
+            var tIndex=$(this).index();
+            $("#loopDiv .main-box-r1").click()
+            if(tIndex!=5){
+                $("#starsIF img[alt="+tIndex+"]").click();
+            }else {
+                $($("#starsIF img[alt="+tIndex+"]")[0]).click();
+            }
+        })
+
+        setTimeout(function () {
+//            $($("#starsIF img")[0]).remove();
+            $("#loopDiv .main-box-r1").on("click", function () {
+                $($("#starsIF_images img").not(":hidden")[3]).click()
+                $("#loopDiv .main-box-r2").css("z-index",18);
+            })
+            $("#loopDiv .main-box-l1").on("click", function () {
+                $($("#starsIF_images img").not(":hidden")[1]).click()
+                $("#loopDiv .main-box-r2").css("z-index",20);
+            })
+
+        },10)
+
+//        图片放大
+        setTimeout(function () {
+            $(".img-box li").each(function () {
+                var height=$(this).find("img")[0].offsetHeight;
+                var width=$(this).find("img")[0].offsetWidth;
+
+                $(this).height(height-26)
+                $(this).width(width-10)
+            })
+            $(".img-box li").hover(function () {
+                var ha=$(this).find("img")[0].offsetHeight;
+                var wa=$(this).find("img")[0].offsetWidth;
+                $(this).find("img").height(ha+30)
+            }, function () {
+                var hb=$(this).find("img")[0].offsetHeight;
+                var wb=$(this).find("img")[0].offsetWidth;
+                $(this).height(hb-56)
+                $(this).width(wb-45)
+                $(this).find("img").height(hb-30)
+            })
+
+        },2000)
+        $(".content7 .img-box li").hover(function () {
+            $(this).animate({"top":"10px","left":"-15px"},400)
+        }, function () {
+            $(this).animate({"top":"0px","left":"0px"},100)
+        })
+
+//
+console.log(window.browser)
+
+    })
+    //   验证手机号
+    function testPhone(value){
+        var reg=/^(13[0-9]|14[5|7]|15[0|1|2|3|5|6|7|8|9]|18[0|1|2|3|5|6|7|8|9])\d{8}$/;
+        return reg.test(value)
+    }
+    //   提示
+    function tips(value,time,callback){
+        $(".model-tips").show().text(value);
+        setTimeout(function () {
+            $(".model-tips").hide().text("");
+        },time)
+        if(callback){
+            setTimeout(callback,time+1);
+        }
+    }
+</script>
+</body>
+</html>
